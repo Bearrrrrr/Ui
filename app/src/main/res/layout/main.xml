@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleAdapter"/>
+    <Button
+        android:id="@+id/Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog"/>
+    <Button
+        android:id="@+id/XML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MenuXML"/>
+    <Button
+        android:id="@+id/actionmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ActionMode"/>
+</LinearLayout>
